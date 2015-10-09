@@ -6,7 +6,7 @@
 
 int main()
 {
-    XInitThreads();   
+    XInitThreads();//Used in hope of stopping assertion errors.   
     int initsnake();
     int gd=DETECT, gm=VGAMAX;
     initgraph(&gd,&gm,0);
